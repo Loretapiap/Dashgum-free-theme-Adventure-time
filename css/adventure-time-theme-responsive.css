@@ -1,1 +1,59 @@
-/*Inserta tu Codigo Responsive*/
+@media (min-width: 360px ) and (max-width: 1024px) {
+
+    .header {
+        position: absolute;
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    #main-content {
+        width: 100vw;
+        left: 0 !important;
+        margin: 0 auto !important;
+        position: none !important;
+    }
+
+    #sidebar {
+        z-index: 5;
+        display: inline; }
+
+    #sidebar i{
+        display: none;
+    }
+    .nav-collapse {
+        width: 30vw !important;
+        background-color: #424a5d;
+
+    }
+
+    .sidebar-toggle-box, .logo, .visible-xs{
+        display: inline !important;
+    }
+
+    li.sub-menu a.active {
+        color: white;
+    }
+
+    .sidebar-menu, .sub-menu {
+        overflow: auto;
+        zoom: 1;
+    }
+
+    .img-responsive {
+        width: 100%;
+    }
+
+
+
+}
+
+@media (min-width: 1124px) and (max-width: 1600px) {
+
+    li.sub-menu a.active{
+    color: white;
+    background-color: #9c4c9d;
+    border: 20px solid #9c4c9d;
+    }
+
+}
+

@@ -11,6 +11,7 @@
     margin-left: -180px;
 }
 
+
 /*Escribe aqui tu codigo */
 
 /*Colores*/
@@ -77,13 +78,6 @@ ul.sidebar-menu li{
 ul.sidebar-menu li a{
 	color: grey;
 	text-decoration: none;
-}
-
-li.sub-menu a.active{
-	color: white;
-	background-color: #9c4c9d;
-	border: 20px solid #9c4c9d;
-
 }
 
 .sub-menu {
